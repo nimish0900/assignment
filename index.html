@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Tutorial</title>
+  <script src="https://kit.fontawesome.com/b977b8403d.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="data:image/jpeg;base64,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" width="50px" class="logo" alt=""></a>
+
+
+
+
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <a href="#" id="close"><i class="far fa-times "></i></a>
+      </ul>
+
+
+    </div>
+    
+  </section>
+
+  <section id="hero">
+    <div class="herowrite"><h4>Welcome to</h4>
+    <h2>Pop Shop Crystal Shop</h2>
+    <h1>One of the most trusted product</h1>
+    
+    <p></p>
+    <button class="white">SHOP NOW</button>
+    </div>
+    <div class="mainhero">
+        
+       <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" width="250px" alt="">
+       <h4>CRYSTAL AGATE PHONE GRIP-<span>18.99$</span></h4>
+
+       
+
+    </div>
+  </section>
+ 
+
+  
+
+  <section id="product1" class="section-p1">
+    <h2>ALL PRODUCT</h2>
+    <p></p>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5>Trendy shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5></h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5>Trendy shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5></h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5></h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+      <div class="pro">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/stone-pebble/a/q/e/1-1-single-amethyst-crystal-stones-for-reiki-healing-crystal-aaa-original-imagtgwqfszsjtmq.jpeg?q=90&crop=false" alt="">
+        <div class="des">
+          <span>Crystal Agate phone case</span>
+          <h5></h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$78</h4>
+
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <div id="banner">
+    <div class="text-content">
+      <h2> BEST PRICE </h2>
+      <h1>79$</h1>
+      <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate eos veritatis totam accusantium omnis dolores fugiat autem aut inventore tempora, illo facilis asperiores at dolorem ipsa, corrupti magni laborum praesentium sit quaerat aperiam? Esse nostrum beatae maiores enim illo cumque!</h4>
+      <button class="normal">SHOP NOW</button>
+    </div>
+    <div class="bannerplate">
+      
+      <div class="platebaground">
+        <img src="https://img.freepik.com/free-photo/clean-plate-simple-food-gourmet-meal-served-generated-by-ai_188544-36384.jpg"  >
+        <!-- Content for the plate background -->
+        
+      </div>
+    </div>
+  </div>
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
